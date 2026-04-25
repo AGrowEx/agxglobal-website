@@ -55,24 +55,31 @@ const About = () => {
     {
       year: "2019",
       title: "Foundation & Pilot Farm",
-      description: "Established 8-hectare pilot farm with tech automation",
+      description: "Established 8-hectare pilot farm with tech automation. Lived the life of farmers to understand real pain points.",
       icon: Calendar,
       color: "from-green-500 to-emerald-600"
     },
     {
-      year: "2022-23",
+      year: "2022–23",
       title: "MVP Launch",
-      description: "Bhoomi 1.0 launched in 3 Indian states",
+      description: "Bhoomi 1.0 launched in 3 Indian states. First 5,000 man-days digitised, 5-star app store rating achieved.",
       icon: TrendingUp,
       color: "from-blue-500 to-cyan-600"
     },
     {
       year: "2024",
       title: "Global Expansion",
-      description: "Bhoomi 2.0 expansion to India, Africa & Australia",
+      description: "Bhoomi 2.0 launched across India, Africa & Australia. 4 AI agents deployed. IoT hardware integration completed.",
       icon: Globe,
-      color: "from-purple-500 to-pink-600"
-    }
+      color: "from-teal-500 to-cyan-600"
+    },
+    {
+      year: "2026",
+      title: "Australia Market Entry & Scale",
+      description: "Entering the Australian market with early pilot farms already active in Victoria. Actively seeking additional farm partnerships, AgTech distribution partners, and investors to grow Bhoomi's presence across key Australian growing regions.",
+      icon: Award,
+      color: "from-teal-500 to-green-600"
+    },
   ];
 
 
@@ -193,9 +200,9 @@ const About = () => {
                   transition={{ duration: 0.8, delay: 0.8 }}
                   className="bg-white p-6 rounded-2xl shadow-lg border border-gray-100 text-center hover:shadow-xl transition-shadow duration-300"
                 >
-                  <div className="text-3xl font-bold text-green-600 mb-2">12,000+</div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Man-days Digitized</h3>
-                  <p className="text-sm text-gray-600">Labor efficiency improvements</p>
+                  <div className="text-3xl font-bold text-green-600 mb-2">25,000+</div>
+                  <h3 className="font-semibold text-gray-800 mb-1">Man-days Digitised</h3>
+                  <p className="text-sm text-gray-600">Operational farm data</p>
                 </motion.div>
                 
                 <motion.div
@@ -204,9 +211,9 @@ const About = () => {
                   transition={{ duration: 0.8, delay: 1.0 }}
                   className="bg-white p-6 rounded-2xl shadow-lg border border-gray-100 text-center hover:shadow-xl transition-shadow duration-300"
                 >
-                  <div className="text-3xl font-bold text-green-600 mb-2">25%</div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Fertilizer Reduction</h3>
-                  <p className="text-sm text-gray-600">Optimized nutrient application</p>
+                  <div className="text-3xl font-bold text-green-600 mb-2">40–50%</div>
+                  <h3 className="font-semibold text-gray-800 mb-1">Yield Increase</h3>
+                  <p className="text-sm text-gray-600">On AI-guided pilot farms</p>
                 </motion.div>
               </div>
               

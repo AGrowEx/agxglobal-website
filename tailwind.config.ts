@@ -7,6 +7,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+		"./teaming_ppt/**/*.{ts,tsx}",
 	],
 	prefix: "",
 	theme: {

@@ -64,36 +64,28 @@ const Contact = () => {
 
   const offices = [
     {
+      country: "Australia",
+      city: "Melbourne",
+      address: "6 Cradle Circuit, Manor Lakes, Melbourne, Australia",
+      phone: "+61422868025",
+      email: "australia@agxglobal.earth",
+      flag: "🇦🇺"
+    },
+    {
       country: "India",
       city: "Bangalore",
-      address: "HSR Layout, Sector 1, Bangalore 560102",
-      phone: "+91 80 1234 5678",
-      email: "india@agxglobal.com",
+      address: "Genesis Ecosphere, Neeladari Road, Electronic City, Phase 1, BLR, Karnataka",
+      phone: "+919731806131",
+      email: "india@agxglobal.earth",
       flag: "🇮🇳"
     },
     {
-      country: "Kenya",
-      city: "Nairobi",
-      address: "Upper Hill, Nairobi 00100",
-      phone: "+254 20 123 4567",
-      email: "kenya@agxglobal.com",
-      flag: "🇰🇪"
-    },
-    {
-      country: "Uganda",
-      city: "Kampala",
-      address: "Nakasero Hill, Kampala",
-      phone: "+256 41 123 4567",
-      email: "uganda@agxglobal.com",
-      flag: "🇺🇬"
-    },
-    {
-      country: "Australia",
-      city: "Sydney",
-      address: "Circular Quay, Sydney NSW 2000",
-      phone: "+61 2 1234 5678",
-      email: "australia@agxglobal.com",
-      flag: "🇦🇺"
+      country: "Spain",
+      city: "Madrid",
+      address: "Paseo de la Castellana 200, 28046 Madrid",
+      phone: "+34689105996",
+      email: "europe@agxglobal.earth",
+      flag: "🇪🇸"
     }
   ];
 
@@ -166,7 +158,7 @@ const Contact = () => {
                       <div>
                         <h3 className="text-lg font-semibold text-gray-800 mb-1">Email Support</h3>
                         <p className="text-gray-600 text-sm mb-2">Get in touch via email for detailed inquiries</p>
-                        <p className="text-green-600 font-medium">support@agxglobal.com</p>
+                        <p className="text-green-600 font-medium">support@agxglobal.earth</p>
                       </div>
                     </div>
                   </CardContent>
@@ -454,7 +446,7 @@ const Contact = () => {
               },
               {
                 question: "Which countries do you operate in?",
-                answer: "We currently operate in India, Kenya, Uganda, and Australia, with plans for expansion to other markets."
+                answer: "We're active across Australia, India, and Europe, with pilots in Africa."
               }
             ].map((faq, index) => (
               <ScrollReveal key={index}>

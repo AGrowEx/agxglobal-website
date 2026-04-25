@@ -14,16 +14,18 @@ const Navigation = () => {
   const navItems = [
     { label: "Home", href: "/" },
     { label: "Solutions", href: "/solutions" },
+    { label: "AI for Nature", href: "/ai-for-nature" },
+    { label: "Australia", href: "/australia" },
     { label: "About", href: "/about" },
-    { label: "Contact", href: "/contact" }
+    { label: "Contact", href: "/contact" },
   ];
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-[100] bg-gray-900 border-b border-gray-800">
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          {/* Left - AGX Global Logo */}
-          <Link to="/" className="flex items-center">
+          {/* Left - AGX Global Logo (pulled slightly left) */}
+          <Link to="/" className="flex items-center -ml-2">
             <img 
               src="/logo.png" 
               alt="AGX Global Logo" 
@@ -32,7 +34,7 @@ const Navigation = () => {
           </Link>
           
           {/* Center - Navigation */}
-          <div className="hidden md:flex items-center gap-8 flex-1 justify-center">
+          <div className="hidden md:flex items-center gap-6 flex-1 justify-center">
             {navItems.map((item) => (
               <Link 
                 key={item.label}
@@ -48,12 +50,11 @@ const Navigation = () => {
             ))}
           </div>
           
-          {/* Right - Language and Sign in */}
-          <div className="flex items-center gap-4">
-            <span className="hidden sm:inline text-sm text-gray-400">EN</span>
+          {/* Right - Sign In only */}
+          <div className="flex items-center gap-3">
             <Button 
               onClick={() => setShowSignInPopup(true)}
-              className="hidden sm:inline-flex bg-green-600 hover:bg-green-700 text-white font-medium px-6"
+              className="hidden sm:inline-flex bg-green-600 hover:bg-green-700 text-white font-medium px-5"
             >
               Sign in
             </Button>

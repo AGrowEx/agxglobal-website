@@ -79,7 +79,7 @@ const Careers = () => {
       title: "Innovation First",
       description: "Push the boundaries of agricultural technology with cutting-edge AI and IoT solutions",
       icon: Target,
-      color: "from-purple-500 to-pink-600"
+      color: "from-indigo-500 to-slate-600"
     },
     {
       title: "Farmer-Centric",
@@ -91,7 +91,7 @@ const Careers = () => {
       title: "Growth Mindset",
       description: "Continuous learning and professional development in a fast-growing industry",
       icon: TrendingUp,
-      color: "from-orange-500 to-red-600"
+      color: "from-amber-500 to-yellow-600"
     }
   ];
 
@@ -276,7 +276,7 @@ const Careers = () => {
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Button 
                       className="bg-green-600 hover:bg-green-700 text-white px-8 py-3"
-                      onClick={() => window.open('mailto:careers@agxglobal.com?subject=Future Opportunities - Resume Submission', '_blank')}
+                      onClick={() => window.open('mailto:careers@agxglobal.earth?subject=Future Opportunities - Resume Submission', '_blank')}
                     >
                       Send Your Resume
                       <Mail className="ml-2 h-4 w-4" />

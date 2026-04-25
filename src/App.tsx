@@ -11,6 +11,11 @@ import Careers from "./pages/Careers";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
 import NotFound from "./pages/NotFound";
+import Australia from "./pages/Australia";
+import ForFarmers from "./pages/ForFarmers";
+import ForBusiness from "./pages/ForBusiness";
+import ForInvestors from "./pages/ForInvestors";
+import AiForNature from "./pages/AiForNature";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +34,11 @@ const App = () => {
             <Route path="/careers" element={<Careers />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-conditions" element={<TermsConditions />} />
+            <Route path="/australia" element={<Australia />} />
+            <Route path="/for-farmers" element={<ForFarmers />} />
+            <Route path="/for-business" element={<ForBusiness />} />
+            <Route path="/for-investors" element={<ForInvestors />} />
+            <Route path="/ai-for-nature" element={<AiForNature />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

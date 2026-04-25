@@ -14,6 +14,8 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose, onSignInClick 
   const navItems = [
     { label: "Home", href: "/" },
     { label: "Solutions", href: "/solutions" },
+    { label: "AI for Nature", href: "/ai-for-nature" },
+    { label: "Australia", href: "/australia" },
     { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" }
   ];
