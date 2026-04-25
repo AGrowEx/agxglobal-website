@@ -259,8 +259,8 @@ const ForFarmers = () => {
                 crop from a potential outbreak. The AI diagnosis from a photo is something I didn't
                 think was possible."
               </blockquote>
-              <div className="text-green-200 font-semibold mb-1">Sarah Johnson</div>
-              <div className="text-green-300 text-sm mb-10">Horticulture Farm Owner — Queensland, Australia</div>
+              <div className="text-green-200 font-semibold mb-1">Sunny</div>
+              <div className="text-green-300 text-sm mb-10">Horticulture Farm Owner — Victoria, Australia</div>
 
               <h2 className="text-3xl font-bold text-white mb-6">
                 Ready to Grow Smarter?
